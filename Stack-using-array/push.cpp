@@ -30,7 +30,7 @@ void display(stack* &ptr)
         cout << "Stack Elements" << endl;
         while (p!=-1)
         {
-            cout << "Element " << p << " : " << ptr->arr[p] << endl;
+            cout << "---> "<< ptr->arr[p] << endl;
             p--; 
         }
         cout << endl;
